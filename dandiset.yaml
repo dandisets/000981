@@ -3,9 +3,14 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about:
+- identifier: https://doi.org/10.1101/2025.05.15.654129
+  name: Whole-brain chemosensory responses of both C. elegans sexes
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
+acknowledgement: See contributors
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -17,9 +22,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 80284994075
-  numberOfFiles: 46
-  numberOfSubjects: 46
+  numberOfBytes: 82267067651
+  numberOfFiles: 47
+  numberOfSubjects: 47
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
@@ -28,22 +33,178 @@ assetsSummary:
   variableMeasured:
   - PlaneSegmentation
   - ProcessingModule
-citation: Placeholder Title (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000981/draft
+citation: Seyedolmohadesin, Maedeh; Fu, Xingyang; Torkashvand, Mahdi; Rasouli, Sina;
+  Lang, Samuel; Li, Liangzi; Kalinski, Cristine; Cook, Steven; Schroeder, Frank; Yemini
+  Eviatar; Venkatachalam, Vivek (2025) Whole-brain chemosensory responses of both
+  C. elegans sexes (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000981/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/04t5xt781
+    name: Northeastern University
+    schemaKey: Affiliation
+  identifier: 0000-0003-3742-394X
+  includeInCitation: true
+  name: Seyedolmohadesin, Maedeh
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0464eyp60
+    name: UMass Chan Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0003-3480-3648
+  includeInCitation: true
+  name: Fu, Xingyang
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04t5xt781
+    name: Northeastern University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Torkashvand, Mahdi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04t5xt781
+    name: Northeastern University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Rasouli, Sina
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0464eyp60
+    name: UMass Chan Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Lang, Samuel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04t5xt781
+    name: Northeastern University
+    schemaKey: Affiliation
+  identifier: 0009-0008-8661-5837
+  includeInCitation: true
+  name: Li, Liangzi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00hj8s172
+    name: Columbia University
+    schemaKey: Affiliation
+  identifier: 0000-0001-6227-5403
+  includeInCitation: true
+  name: Kalinski, Cristine
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00hj8s172
+    name: Columbia University
+    schemaKey: Affiliation
+  identifier: 0000-0002-1345-7566
+  includeInCitation: true
+  name: Cook, Steven
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05bnh6r87
+    name: Cornell University
+    schemaKey: Affiliation
+  identifier: 0000-0002-4420-0237
+  includeInCitation: true
+  name: Schroeder, Frank
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0464eyp60
+    name: UMass Chan Medical School
+    schemaKey: Affiliation
+  awardNumber: ''
+  email: eviatar.yemini@umassmed.edu
+  identifier: 0000-0003-1977-0761
+  includeInCitation: true
+  name: Yemini Eviatar
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: https://www.yeminilab.com
+- affiliation:
+  - identifier: https://ror.org/04t5xt781
+    name: Northeastern University
+    schemaKey: Affiliation
+  awardNumber: R01 NS126334
+  email: v.venkatachalam@northeastern.edu
+  identifier: 0000-0002-2414-7416
+  includeInCitation: true
+  name: Venkatachalam, Vivek
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:ProjectLeader
+  schemaKey: Person
+  url: https://venkatachalamlab.org
+- identifier: https://ror.org/02pjt4q95
+  name: Hypothesis Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.hypothesisfund.org
+- identifier: https://ror.org/01q222b25
+  name: Esther A. & Joseph Klingenstein Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.klingfund.org/
+- identifier: https://ror.org/01cmst727
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.simonsfoundation.org
 - awardNumber: 5 R01 NS 126334-02
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-03T21:08:50.809756+00:00'
-description: Placeholder Description
+description: 'Datasets for the preprint: https://www.biorxiv.org/content/10.1101/2025.05.15.654129v1.full'
+ethicsApproval: []
 id: DANDI:000981/draft
 identifier: DANDI:000981
+keywords:
+- NeuroPAL, whole-brain imaging, C. elegans, neural activity, sex, hermaphrodite,
+  male
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000981/versions/draft/assets/
-name: Placeholder Title
+name: Whole-brain chemosensory responses of both C. elegans sexes
+protocol:
+- https://doi.org/10.1101/2025.05.15.654129
+relatedResource:
+- identifier: 'doi: https://doi.org/10.1101/2025.05.15.654129'
+  name: Whole-brain chemosensory responses of both C. elegans sexes
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2025.05.15.654129v1.full
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget:
+- Comparitive whole-brain imaging for both sexes of C. elegans
 url: https://dandiarchive.org/dandiset/000981/draft
 version: draft
+wasGeneratedBy: []
