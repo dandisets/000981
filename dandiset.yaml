@@ -22,20 +22,17 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 72581329658
-  numberOfFiles: 43
-  numberOfSubjects: 43
+  numberOfBytes: 76482916822
+  numberOfFiles: 44
+  numberOfSubjects: 44
   schemaKey: AssetsSummary
   species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
-    name: Caenorhabditis elegans
-    schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
     name: Caenorhabditis elegans - Roundworm
     schemaKey: SpeciesType
   variableMeasured:
-  - PlaneSegmentation
   - ProcessingModule
+  - PlaneSegmentation
 citation: Seyedolmohadesin, Maedeh; Fu, Xingyang; Torkashvand, Mahdi; Rasouli, Sina;
   Lang, Samuel; Li, Liangzi; Kalinski, Cristine; Cook, Steven; Schroeder, Frank; Yemini,
   Eviatar; Venkatachalam, Vivek (2026) Whole-brain chemosensory responses of both
