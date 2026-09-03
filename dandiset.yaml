@@ -22,13 +22,16 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 82267067651
-  numberOfFiles: 47
-  numberOfSubjects: 47
+  numberOfBytes: 72581329658
+  numberOfFiles: 43
+  numberOfSubjects: 43
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
     name: Caenorhabditis elegans
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+    name: Caenorhabditis elegans - Roundworm
     schemaKey: SpeciesType
   variableMeasured:
   - PlaneSegmentation
