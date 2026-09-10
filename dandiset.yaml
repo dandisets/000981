@@ -36,7 +36,7 @@ assetsSummary:
 citation: Seyedolmohadesin, Maedeh; Fu, Xingyang; Torkashvand, Mahdi; Rasouli, Sina;
   Lang, Samuel; Li, Liangzi; Kalinski, Cristine; Cook, Steven; Schroeder, Frank; Yemini,
   Eviatar; Venkatachalam, Vivek (2026) Whole-brain chemosensory responses of both
-  C. elegans sexes (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000981/draft
+  C. elegans sexes (Version 0.260910.1747) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000981/0.260910.1747
 contributor:
 - affiliation:
   - identifier: https://ror.org/04t5xt781
@@ -179,9 +179,11 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-03T21:08:50.809756+00:00'
+datePublished: '2026-09-10T17:47:39.829772+00:00'
 description: 'Datasets for the Current Biology paper: https://doi.org/10.1016/j.cub.2026.08.040'
+doi: 10.48324/dandi.000981/0.260910.1747
 ethicsApproval: []
-id: DANDI:000981/draft
+id: DANDI:000981/0.260910.1747
 identifier: DANDI:000981
 keywords:
 - NeuroPAL, whole-brain imaging, C. elegans, neural activity, sex, hermaphrodite,
@@ -189,10 +191,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000981/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000981/0.260910.1747/assets.yaml
 name: Whole-brain chemosensory responses of both C. elegans sexes
 protocol:
 - https://doi.org/10.1101/2025.05.15.654129
+publishedBy:
+  endDate: '2026-09-10T17:47:39.829772+00:00'
+  id: urn:uuid:2db6ba9a-9a02-4bbe-b35d-632ed09e32cf
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-10T17:47:39.829772+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:294d759d-3ee0-4bd1-92bd-4484b698f9b1
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1016/j.cub.2026.08.040
   name: Whole-brain chemosensory responses of both C. elegans sexes
@@ -200,11 +214,12 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.sciencedirect.com/science/article/pii/S0960982226010912
+releaseNotes: First public release after publication.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget:
 - Comparitive whole-brain imaging for both sexes of C. elegans
-url: https://dandiarchive.org/dandiset/000981/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000981/0.260910.1747
+version: 0.260910.1747
 wasGeneratedBy: []
